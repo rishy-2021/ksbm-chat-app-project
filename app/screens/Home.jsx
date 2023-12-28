@@ -1,11 +1,8 @@
 import React, {useEffect} from 'react';
 import {View, TouchableOpacity, Text, Image, StyleSheet} from 'react-native';
 import {useNavigation} from '@react-navigation/native';
-import colors from '../colors';
-import {faSearch} from '@fortawesome/free-solid-svg-icons';
-import Entypo from 'react-native-vector-icons/Entypo';
+import colors from '../common/colors';
 import IonIcon from 'react-native-vector-icons/Ionicons';
-import {FontAwesomeIcon} from '@fortawesome/react-native-fontawesome';
 const catImageUrl =
   'https://ksbminfotech.com/wp-content/uploads/thegem-logos/logo_5f031e0e26962402549a17e954bf2b24_1x.png';
 

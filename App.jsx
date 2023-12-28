@@ -3,7 +3,7 @@ import {auth} from './config/firebase';
 import {NavigationContainer} from '@react-navigation/native';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import Home from './app/screens/Home'
-import ChatScreen from '.app//screens/Chat';
+import ChatScreen from './app/screens/Chat';
 import Login from './app/screens/Login';
 import Signup from './app/screens/Signup';
 import {View, ActivityIndicator} from 'react-native';
