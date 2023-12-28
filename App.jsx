@@ -2,10 +2,10 @@ import React, {useEffect, useState, createContext, useContext} from 'react';
 import {auth} from './config/firebase';
 import {NavigationContainer} from '@react-navigation/native';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
-import Home from './app/screens/Home'
-import ChatScreen from './app/screens/Chat';
-import Login from './app/screens/Login';
-import Signup from './app/screens/Signup';
+import Home from './screens/Home'
+import ChatScreen from './screens/Chat';
+import Login from './screens/Login';
+import Signup from './screens/Signup';
 import {View, ActivityIndicator} from 'react-native';
 import {onAuthStateChanged} from 'firebase/auth';
 

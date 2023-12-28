@@ -12,7 +12,7 @@ import {
   ActivityIndicator,
 } from 'react-native';
 import {createUserWithEmailAndPassword} from 'firebase/auth';
-import {auth} from '../../config/firebase';
+import {auth} from '../config/firebase';
 
 export default function Signup({navigation}) {
   const [email, setEmail] = useState('');

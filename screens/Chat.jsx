@@ -9,10 +9,10 @@ import {
   onSnapshot,
 } from 'firebase/firestore';
 import {signOut} from 'firebase/auth';
-import {auth, database} from '../../config/firebase';
+import {auth, database} from '../config/firebase';
 import {useNavigation} from '@react-navigation/native';
 import AntDesign from 'react-native-vector-icons/AntDesign';
-import colors from '../common/colors';
+import colors from '../colors';
 
 export default function Chat() {
   const [messages, setMessages] = useState([]);

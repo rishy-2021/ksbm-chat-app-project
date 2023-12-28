@@ -1,7 +1,7 @@
 import React, {useEffect} from 'react';
 import {View, TouchableOpacity, Text, Image, StyleSheet} from 'react-native';
 import {useNavigation} from '@react-navigation/native';
-import colors from '../common/colors';
+import colors from '../colors';
 import IonIcon from 'react-native-vector-icons/Ionicons';
 const catImageUrl =
   'https://ksbminfotech.com/wp-content/uploads/thegem-logos/logo_5f031e0e26962402549a17e954bf2b24_1x.png';
